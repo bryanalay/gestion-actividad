@@ -32,6 +32,9 @@ broker.on('publish', (packet, client) => {
   }
 })
 
+//agregando cambios al index.js
+console.log('esto es un cambio en index.js')
+
 // Evento cuando un cliente se desconecta
 broker.on('clientDisconnect', (client) => {
   console.log(`Cliente desconectado: ${client.id}`)
